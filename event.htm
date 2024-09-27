@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event calendar</title>
+    <link rel="stylesheet" href="event.css">
+</head>
+<body>
+  <div class="container" >
+    <h2>Event calendar</h2>
+    <div id="calendar"></div>
+    <div id="event-form">
+        <h3>Add Event</h3>
+        <input type="text" id="event-txt" placeholder="Event description">
+<button id="add-event">Add Event</button>
+    </div>
+    <div id="event-lists">
+        <h3>Events on <span id="selected-date">Selected date</span></h3>
+        <ul id="events"></ul>
+    </div>
+  </div> 
+
+    <script src="event.js"></script>
+</body>         
+</html>
